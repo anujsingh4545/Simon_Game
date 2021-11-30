@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
+      integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN"
+      crossorigin="anonymous"
+    />
+    <title>Simon Game</title>
+  </head>
+  <body>
+    <main class="head">
+      <div class="top">
+        <button>New Game</button>
+        <p>High Score : 0</p>
+      </div>
+      <div class="heading">
+        <h1>Press any Key To Start ...!</h1>
+      </div>
+      <div class="middle">
+        <div class="box box1" id="green"></div>
+        <div class="box box2" id="red"></div>
+        <div class="box box3" id="yellow"></div>
+        <div class="box box4" id="blue"></div>
+      </div>
+
+      <i class="bi bi-info-circle-fill"></i>
+
+      <div class="label display">
+        <i class="bi bi-x"></i>
+        <ul>
+          <li>At first press any key on keyboard to start the game .</li>
+          <li>A particualr square will be blinked at every level.</li>
+          <li>
+            You have to remember the patteren from starting to move to every
+            next level .
+          </li>
+          <li>If you break high score then your score will be updated .</li>
+          <li>
+            Or within the game if you want to startover you can press start game
+            .
+          </li>
+          <li>
+            If you choose wrong square you will lose the game and by just
+            pressing any button or new game you can start the game again .
+          </li>
+          <p>Made with 💙 ~ Anuj Singh</p>
+        </ul>
+      </div>
+      <div class="hide display"></div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
